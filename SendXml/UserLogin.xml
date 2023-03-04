@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <UserAccountLogin xmlns="http://tempuri.org/">
+      <account>
+        <VendorApiKey>string</VendorApiKey>
+        <User>resttest</User>
+        <Password>resttest1234</Password>
+      </account>
+    </UserAccountLogin>
+  </soap:Body>
+</soap:Envelope>

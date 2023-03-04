@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+  <soap12:Body>
+    <MemberGetDetails xmlns="http://tempuri.org/">
+      <auth>
+        <LoginCode>39007767765456</LoginCode>
+        <AuthType>ByUser</AuthType>
+        <Terminal>
+          <VendorApiKey>string</VendorApiKey>
+          <AccountId>123</AccountId>
+          <SubNetCode>string</SubNetCode>
+          <BranchNetCode>string</BranchNetCode>
+          <DeviceNetCode>string</DeviceNetCode>
+          <TerminalType>DT_POS</TerminalType>
+          <OperatorNumber>string</OperatorNumber>
+        </Terminal>
+        <Account>
+          <VendorApiKey>string</VendorApiKey>
+          <User>resttest</User>
+          <Password>resttest1234</Password>
+        </Account>
+      </auth>
+      <fieldId>CELL_PHONE</fieldId>
+      <fieldValue>0544988256</fieldValue>
+      <additionalInfo>
+        <FieldData>
+          <FieldId>string</FieldId>
+          <FieldValue>string</FieldValue>
+        </FieldData>
+        <FieldData>
+          <FieldId>string</FieldId>
+          <FieldValue>string</FieldValue>
+        </FieldData>
+      </additionalInfo>
+    </MemberGetDetails>
+  </soap12:Body>
+</soap12:Envelope>
